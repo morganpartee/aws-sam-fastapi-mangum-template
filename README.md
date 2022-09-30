@@ -7,7 +7,7 @@ This project contains source code and supporting files for a serverless applicat
 
 ## API Gateway Lambda Proxy Integration
 
-The real magic is here, this passes any request through to the lambda we've created, with mangum running inside. New routes just work, like we'd expect with a container or similar.
+The real magic is here, this passes any request through to the lambda we've created, with mangum/FastAPI running inside. New routes just work, like we'd expect with a container or similar. Just modify the routes in `app.py` to fit your usecase!
 
 ```yaml
 Events:
