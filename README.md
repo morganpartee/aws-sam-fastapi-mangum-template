@@ -30,3 +30,7 @@ Then:
 sam build -u
 sam deploy --guided
 ```
+
+## Local development
+
+Install the main folder requirements, and run app.py.
